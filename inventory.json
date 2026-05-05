@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": 1776844014768,
+      "name": "Gaming Laptop",
+      "description": "High performance laptop",
+      "price": 999.99,
+      "quantity": 25,
+      "category": "Electronics",
+      "supplierId": null,
+      "createdAt": "2026-04-22T07:46:54.768Z",
+      "updatedAt": "2026-04-22T07:46:54.768Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1776843770704,
+      "name": "Electronics",
+      "description": "Electronic items",
+      "createdAt": "2026-04-22T07:42:50.704Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1776843818599,
+      "name": "Tech Supplies Co",
+      "contactPerson": "John Doe",
+      "email": "john@techsupplies.com",
+      "phone": "555-1234",
+      "address": "123 Tech Street",
+      "createdAt": "2026-04-22T07:43:38.599Z"
+    }
+  ]
+}
