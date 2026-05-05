@@ -1,0 +1,187 @@
+/* ===== RESET ===== */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f4f6f8;
+	color: #333;
+}
+
+/* ===== INDEX PAGE ===== */
+.center-page {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("ibg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.index-box {
+	background: rgba(255, 255, 255, 0.85);
+	padding: 40px;
+	border-radius: 12px;
+	text-align: left;
+}
+
+/* ===== TITLES ===== */
+.title {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 32px;
+}
+
+/* ===== MENU ===== */
+.menu {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.menu a {
+	padding: 14px 30px;
+	border: 2px solid #333;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+
+.menu a:hover {
+	background-color: #333;
+	color: white;
+	transform: scale(1.05);
+}
+
+/* ===== NOTE BOX ===== */
+.note-box {
+	width: 420px;
+	margin: 20px auto;
+	padding: 15px 25px;
+	background-color: #eef1f4;
+	border-left: 6px solid #333;
+	border-radius: 6px;
+}
+
+.note-box h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/* ===== FORM ===== */
+.form-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+form {
+	width: 360px;
+	padding: 25px;
+	border: 2px solid #333;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+form label {
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
+}
+
+form input {
+	width: 100%;
+	padding: 10px;
+	margin-top: 6px;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+form button {
+	margin-top: 15px;
+	padding: 12px;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	border: none;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #555;
+}
+
+.error {
+	color: red;
+	font-size: 13px;
+}
+
+/* ===== TABLE ===== */
+table {
+	width: 85%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+th {
+	background-color: #333;
+	color: white;
+}
+
+th, td {
+	border: 1px solid #333;
+	padding: 10px;
+	text-align: center;
+}
+
+/* ===== CENTER ===== */
+.center {
+	text-align: center;
+	margin: 25px;
+}
+
+a {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.add-image{
+    background-image: url("abg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.display-image{
+    background-image: url("dbg.png");
+	background-size: cover;
+	background-position: center;
+}
+button {
+	padding: 6px 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.85;
+}
+
+td button {
+	background-color: #d9534f;
+	color: white;
+	font-weight: bold;
+}
