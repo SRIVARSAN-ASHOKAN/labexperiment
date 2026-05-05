@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1776401523641,
+      "name": "srivarsan",
+      "email": "srivarsana.24cse@kongu.edu",
+      "age": 19,
+      "timestamp": "2026-04-17T04:52:03.641Z"
+    },
+    {
+      "id": 1776402039278,
+      "name": "sri",
+      "email": "sri.24cse@kongu.edu",
+      "age": 19,
+      "timestamp": "2026-04-17T05:00:39.278Z"
+    },
+    {
+      "id": 1776767604828,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "age": 25,
+      "timestamp": "2026-04-21T10:33:24.828Z"
+    },
+    {
+      "id": 1776767653149,
+      "name": "John",
+      "email": "wick@example.com",
+      "age": 30,
+      "timestamp": "2026-04-21T10:34:13.149Z"
+    },
+    {
+      "id": 1776767694226,
+      "name": "sri",
+      "email": "sri@example.com",
+      "age": 19,
+      "timestamp": "2026-04-21T10:34:54.226Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1776401542804,
+      "userId": 1776401523641,
+      "message": "FSD exp 6",
+      "timestamp": "2026-04-17T04:52:22.804Z"
+    },
+    {
+      "id": 1776402063759,
+      "userId": 1776402039278,
+      "message": "FSD exp 6",
+      "timestamp": "2026-04-17T05:01:03.759Z"
+    },
+    {
+      "id": 1776767951303,
+      "userId": 1776401523641,
+      "message": "This is my first message",
+      "timestamp": "2026-04-21T10:39:11.303Z"
+    }
+  ]
+}
