@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Voting Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="box">
+    <h2 class="title">Online Voting Registration</h2>
+
+    <form id="voteForm" onsubmit="return submitForm()">
+
+        <label>Name</label>
+        <input type="text" id="name"  placeholder="Enter full name" pattern="[A-Za-z ]{3,50}" required>
+
+        <label>Aadhaar Number</label>
+        <input type="text" id="aadhaar" placeholder="12-digit Aadhaar" pattern="[0-9]{12}" maxlength="12" required>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob" onchange="calculateAge()" required>
+
+        <label>Age</label>
+        <input type="number" id="age" placeholder="Auto calculated" readonly>
+
+        <label>Mobile Number</label>
+        <input type="text" id="mobile" placeholder="10-digit mobile" pattern="[6-9][0-9]{9}" maxlength="10" required>
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="example@mail.com" required>
+
+        <label>Pincode</label>
+        <input type="text" id="pincode" pattern="[0-9]{6}" maxlength="6" required>
+
+        <label>State</label>
+        <select id="state" required>
+            <option value="">Select State</option>
+            <option>Tamil Nadu</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Andhra Pradesh</option>
+            <option>Telangana</option>
+            <option>Maharashtra</option>
+            <option>Gujarat</option>
+            <option>Rajasthan</option>
+            <option>Punjab</option>
+            <option>Uttar Pradesh</option>
+            <option>West Bengal</option>
+            <option>Bihar</option>
+            <option>Odisha</option>
+            <option>Assam</option>
+            <option>Madhya Pradesh</option>
+        </select>
+
+        <label>District</label>
+        <select id="district" required>
+            <option value="">Select District</option>
+            <option>Chennai</option>
+            <option>Coimbatore</option>
+            <option>Madurai</option>
+            <option>Salem</option>
+            <option>Erode</option>
+            <option>Tiruchirappalli</option>
+            <option>Bengaluru</option>
+            <option>Mysuru</option>
+            <option>Kochi</option>
+            <option>Thiruvananthapuram</option>
+            <option>Hyderabad</option>
+            <option>Visakhapatnam</option>
+        </select>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</div>
+
+
+<div id="overlay">
+    <div id="alertBox">
+        <span class="close" onclick="closeOverlay()">✖</span>
+        <h2 class="success">Registration Successful ✅</h2>
+        <div id="details"></div>
+    </div>
+</div>
+
+</body>
+</html>
